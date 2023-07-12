@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>exercicio aula 8</title>
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+        #res img {
+            max-width: 100%;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body onload="carregar()">
+    <header>
+        <h1>Verifique a idade</h1>
+    </header>
+
+    <section>
+        <div>
+            <p>
+                <span id="mensagem">Coloque ano de nascimento:</span>
+                <input type="number" name="txtano" id="txtano" min="0">
+            </p>
+            <p>
+                Sexo:
+                <input type="radio" name="radsex" id="macho" checked>
+                <label for="macho">Masculino</label>
+                <input type="radio" name="radsex" id="mulher">
+                <label for="mulher">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res">
+            Preencha os dados acima para verificar os resultados!
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; ViniiGomes</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
