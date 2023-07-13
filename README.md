@@ -1,5 +1,5 @@
 # aula08# #08 - JS: DOM e Condições
 
-### No(a)
+### Nome(a)
 
 [comment]: <> (Vinícius Gomes Santos.)
